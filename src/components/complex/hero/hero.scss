@@ -1,4 +1,13 @@
 .hero {
   min-height: 100vh;
+  margin-top: -100px;
   background-color: #200d40;
+
+  @include lg {
+    margin-top: -80px;
+  }
+
+  @include sm {
+    margin-top: -60px;
+  }
 }

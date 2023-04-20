@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    {% set pageTitle = 'Контакты' %}
+    {% include "./components/complex/head/head.html" %}
+  </head>
+
+  <body class="page">
+    {# begin header #}
+    {% include "./components/complex/header/header.html" %}      
+    {# end header #}
+
+    <div class="page__content">
+      {% include "./components/complex/contacts/contacts.html" %}    
+    </div>
+
+    {# begin footer #}
+    {% include "./components/complex/footer/footer.html" %}  
+    {# end footer #}
+  </body>
+</html>

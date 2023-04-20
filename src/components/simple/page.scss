@@ -13,6 +13,16 @@ body,
 
   &__content {
     flex: 1 1 auto;
+    min-height: 100vh;
+    padding-top: 100px;
+
+    @include lg {
+      padding-top: 80px;
+    }
+
+    @include sm {
+      padding-top: 60px;
+    }
   }
 }
 
