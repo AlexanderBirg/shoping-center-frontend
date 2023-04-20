@@ -3,6 +3,9 @@
 @import "services/fonts/fonts.scss";
 @import "services/mixins/mixins.scss";
 
+// ui
+@import "components/simple/ui/title.scss";
+
 // simple
 @import "components/simple/page.scss";
 @import "components/simple/wrapper.scss";
@@ -17,3 +20,4 @@
 @import "components/complex/footer/footer.scss";
 @import "components/complex/hero/hero.scss";
 @import "components/complex/contacts/contacts.scss";
+@import "components/complex/secondary-hero/secondary-hero.scss";

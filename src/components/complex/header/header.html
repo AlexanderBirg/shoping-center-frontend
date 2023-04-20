@@ -5,22 +5,22 @@
     </a>
 
     <ul class="header__nav">
-      <li class="header__item">
+      <li class="header__item {{ 'header__item--active' if activeMenuItem == 'shops' else '' }}">
         <a href="" class="header__link">
           Магазины
         </a>
       </li>
-      <li class="header__item">
+      <li class="header__item {{ 'header__item--active' if activeMenuItem == 'news' else '' }}">
         <a href="" class="header__link">
           Новости и акции
         </a>
       </li>
-      <li class="header__item">
+      <li class="header__item {{ 'header__item--active' if activeMenuItem == 'about' else '' }}">
         <a href="" class="header__link">
           О торговом центре
         </a>
       </li>
-      <li class="header__item">
+      <li class="header__item {{ 'header__item--active' if activeMenuItem == 'contacts' else '' }}">
         <a href="" class="header__link">
           Контакты
         </a>
