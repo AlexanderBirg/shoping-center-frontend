@@ -1,0 +1,15 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "no-new": "off",
+    "import/extensions": "off",
+    "arrow-body-style": ["error", "always"],
+    "no-param-reassign": "off",
+    "no-plusplus": "off",
+    "no-console": "off"
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}

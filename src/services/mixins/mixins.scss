@@ -1,0 +1,26 @@
+// Медиа-запросы
+// @include lg {
+//   background: red;
+// }
+@mixin lg {
+  @media (max-width: 1279.98px) { @content; }
+}
+
+@mixin md {
+  @media (max-width: 991.98px) { @content; }
+}
+
+@mixin sm {
+  @media (max-width: 767.98px) { @content; }
+}
+
+@mixin xs {
+  @media (max-width: 575.98px) { @content; }
+}
+
+@mixin out($value) {
+  margin-right: -$value;
+  margin-left: -$value;
+  padding-right: $value;
+  padding-left: $value;
+}
